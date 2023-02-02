@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --font-content:'Roboto Slab', serif;
+    --font-titles:  'Merienda', cursive;
+}
+
+body {
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    color: white;
+    
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #403e26;
+    color: white;
+    align-items: center;
+    font-size: 2.5vh;
+    box-shadow: 4px 4px 10px black;
+    padding: 20px;
+    line-height: 40px;
+    font-family: var(--font-titles);
+}
+
+header strong {
+    font-size: 3vh;
+    
+}
+
+header h1 {
+    padding-left: 40px;
+    
+}
+
+header mark {
+    background-color: transparent;
+    color:#6a6242;
+}
+
+header > h2 {
+    color: rgb(255, 255, 255);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    margin-top: 5vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.3vh;
+    width: 50vw;
+    height: 40vh;
+    font-family: var(--font-content);
+    
+}
+
+.content h1 {
+    font-size: 6vh;
+    font-family: var(--font-titles);
+}
+
+
+
+.content mark{
+    background-color: transparent;
+    color: rgb(245, 249, 126);
+    font-size: 6vh;
+}
+
+.number-strong {
+    font-size:7vh;
+    padding: 5px;
+}
+
+.p-strong {
+    font-size: 3.5vh;
+
+}
+
+.content-paragraph {
+    padding-top: 30px;
+    line-height: 4.2vh;
+}
+
+.last-p {
+    padding-top: 35px;
+}
+
+/** PARDE DO CONTEUDO-TEXTO -------**/
+
+aside {
+    display: flex;
+    background-color: #a49c6b;
+    height: 74vh;
+    width: 35vw;
+    padding: 10px;
+    padding-top: 6vh;
+    font-size: 2.5vh;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: var(--font-content);
+
+}
+
+aside strong {
+    font-weight: bold;
+    font-family: var(--font-titles);
+}
+
+.form-title  p {
+    padding-top: 30px;
+}
+
+
+
+.form input {
+    font-size: 2vh;
+    padding: 15px;
+    width: 30vw;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+.button input {
+    font-size: 2vh;
+    padding: 15px;
+    width: 30vw;
+    margin: 7px;
+    border: 2px solid rgb(104, 190, 23);
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5vh;
+    cursor: pointer;
+    transition: 0.8s;
+    font-family: var(--font-titles);
+}
+
+.button input:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(39, 114, 243);;
+}
+
+
+.button p {
+    padding-top: 40px;
+    color: black;
+    font-weight: bolder;
+}
+
+@media only screen and  (max-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: #403e26;
+        color: white;
+        font-size: 1.5vh;
+        box-shadow: 4px 4px 10px black;
+        padding:20px;
+        font-family: var(--font-titles);
+        
+    }
+    
+    header {
+        color: red;
+    }
+    
+    header > h2 {
+        color: rgb(255, 255, 255);
+        padding-right: 70px;
+    }
+    
+    
+    aside {
+        display: inline;
+        position: absolute;
+        background-color: #a49c6b;
+        height: 85vh;
+        width: 93vw;
+        padding: 10px;
+        padding-top: 6vh;
+        font-size: 2vh;
+        border-radius: 20px;
+        font-family: var(--font-content);
+        top: 160vw;
+        left: 1vw;
+        
+    }
+
+    body {
+        height: 170vh;
+        
+    }
+
+    .content {
+        display: inline;
+        font-size: 2vh;
+        width: 50vw;
+        font-family: var(--font-content);
+        
+    }
+    
+    .content h1 {
+        font-size: 2vh;
+        font-family: var(--font-titles);
+    }
+    
+    .content mark{
+        background-color: transparent;
+        color: rgb(245, 249, 126);
+        font-size: 2vh;
+    }
+
+.number-strong {
+    font-size:4vh;
+    padding: 5px;
+}
+
+.form input {
+    font-size: 2vh;
+    padding: 15px;
+    width: 30vw;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+
+.button input {
+    width: 20vh;
+    margin-top: 30px;
+}
+
+.form input {
+    font-size: 1.6vh;
+    padding: 15px;
+    width: 60vw;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+}
