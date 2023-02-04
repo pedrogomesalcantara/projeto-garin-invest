@@ -28,8 +28,7 @@ body {
 
 
 header {
-    display: flex;
-    justify-content: space-between;
+
     background-color: #403e26;
     color: white;
     align-items: center;
@@ -38,6 +37,14 @@ header {
     padding: 20px;
     line-height: 40px;
     font-family: var(--font-titles);
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
 }
 
 header strong {
@@ -195,8 +202,8 @@ aside strong {
         color: red;
     }
     
-    header > h2 {
-        color: rgb(255, 255, 255);
+    header h2 {
+        color: rgb(0, 0, 0);
         padding-right: 70px;
     }
     
@@ -230,15 +237,25 @@ aside strong {
         
     }
     
+    .container-header {
+        background-color: white;
+        font-size: 1vh;
+    }
+
+    .header-strong {
+        font-size: 1vh;
+    }
+    
+
     .content h1 {
-        font-size: 2vh;
+        
         font-family: var(--font-titles);
     }
     
     .content mark{
         background-color: transparent;
         color: rgb(245, 249, 126);
-        font-size: 2vh;
+       
     }
 
 .number-strong {
