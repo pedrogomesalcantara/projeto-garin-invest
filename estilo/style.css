@@ -186,46 +186,48 @@ aside strong {
 }
 
 @media only screen and  (max-width: 900px) {
+  
+    
     header {
-        display: flex;
-        flex-direction: row;
+        
         background-color: #403e26;
         color: white;
-        font-size: 1.5vh;
+        font-size: 2.5vh;
         box-shadow: 4px 4px 10px black;
-        padding:20px;
         font-family: var(--font-titles);
-        
     }
     
-    header {
-        color: red;
+    header h1 {
+        padding-left: 0px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px black;
     }
-    
+
     header h2 {
         color: rgb(0, 0, 0);
-        padding-right: 70px;
+        text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.381);
     }
     
     
+
     aside {
-        display: inline;
+        
         position: absolute;
         background-color: #a49c6b;
         height: 85vh;
-        width: 93vw;
+        width: 100%;
         padding: 10px;
         padding-top: 6vh;
         font-size: 2vh;
         border-radius: 20px;
         font-family: var(--font-content);
-        top: 160vw;
+        top: 260vw;
         left: 1vw;
         
     }
 
     body {
-        height: 170vh;
+        height: 270vh;
         
     }
 
@@ -237,9 +239,21 @@ aside strong {
         
     }
     
+    .container {
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding-top: 20vh;
+    }
+
     .container-header {
-        background-color: white;
-        font-size: 1vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        
     }
 
     .header-strong {
@@ -248,14 +262,23 @@ aside strong {
     
 
     .content h1 {
-        
+        text-align: center;
         font-family: var(--font-titles);
+        font-size: 2vh;
     }
     
     .content mark{
         background-color: transparent;
         color: rgb(245, 249, 126);
-       
+        font-size: 2.5vh;
+        text-align: center;
+        
+    }
+
+    .content p {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 2vh;
     }
 
 .number-strong {
@@ -264,8 +287,7 @@ aside strong {
 }
 
 .form input {
-    font-size: 2vh;
-    padding: 15px;
+    font-size: 1.5vh;
     width: 30vw;
     margin: 7px;
     border: 2px solid black;
@@ -276,11 +298,11 @@ aside strong {
 
 .button input {
     width: 20vh;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .form input {
-    font-size: 1.6vh;
+    font-size: 1.5vh;
     padding: 15px;
     width: 60vw;
     margin: 7px;
