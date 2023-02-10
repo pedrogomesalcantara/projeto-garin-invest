@@ -1,0 +1,1 @@
+Seu navegador não suporta esse tipo de arquivo

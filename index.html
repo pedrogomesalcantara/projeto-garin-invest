@@ -50,10 +50,17 @@
 
                     <div class="form">
 
-                        <input type="text" placeholder="Nome Completo"><br>
-                        <input type="email" placeholder="Email"><br>
-                        <input type="tel" placeholder="Número"><br>
-                        <input type="text" placeholder="Cidade"><br>
+                        <form action="cadastro.php" method="get" autocomplete="on">
+
+                            <input type="text" placeholder="Nome Completo"><br>
+
+                            <input type="email" placeholder="Email"><br>
+
+                            <input type="tel" placeholder="Número" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" autocomplete="tel-national"><br>
+
+                            <input type="text" placeholder="Cidade"><br>
+                            
+                        </form>
                     </div>
 
                     <div class="button">

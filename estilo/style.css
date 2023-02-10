@@ -189,7 +189,7 @@ aside strong {
   
     
     header {
-        
+        width: 100%;
         background-color: #403e26;
         color: white;
         font-size: 2.5vh;
@@ -214,20 +214,16 @@ aside strong {
         
         position: absolute;
         background-color: #a49c6b;
-        height: 85vh;
-        width: 100%;
-        padding: 10px;
-        padding-top: 6vh;
+        width: 40vh;
         font-size: 2vh;
         border-radius: 20px;
         font-family: var(--font-content);
-        top: 260vw;
-        left: 1vw;
-        
+        top: 240vw;   
     }
 
     body {
-        height: 270vh;
+        height: 250vh;
+        width: 100%;
         
     }
 
