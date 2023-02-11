@@ -185,7 +185,7 @@ aside strong {
     font-weight: bolder;
 }
 
-@media only screen and  (max-width: 900px) {
+@media screen and  (max-width: 900px) {
   
     
     header {
@@ -195,6 +195,7 @@ aside strong {
         font-size: 2.5vh;
         box-shadow: 4px 4px 10px black;
         font-family: var(--font-titles);
+        border-radius: 0px 0px 20px 20px;
     }
     
     header h1 {
@@ -211,18 +212,19 @@ aside strong {
     
 
     aside {
-        
+        height: 80vh;
         position: absolute;
         background-color: #a49c6b;
         width: 40vh;
         font-size: 2vh;
         border-radius: 20px;
         font-family: var(--font-content);
-        top: 240vw;   
+        top: 170vw;  
+        margin-bottom: 20px; 
     }
 
     body {
-        height: 250vh;
+        height: 190vh;
         width: 100%;
         
     }
@@ -239,7 +241,7 @@ aside strong {
         display: inline-block;
         text-align: center;
         margin: auto;
-        padding-top: 20vh;
+        padding-top: 5vh;
     }
 
     .container-header {
@@ -272,7 +274,7 @@ aside strong {
     }
 
     .content p {
-        padding-top: 30px;
+        padding-top: 10px;
         padding-bottom: 10px;
         font-size: 2vh;
     }
@@ -284,27 +286,25 @@ aside strong {
 
 .form input {
     font-size: 1.5vh;
-    width: 30vw;
-    margin: 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 60vw;
     border: 2px solid black;
     border-radius: 20px;
     
 }
+    
 
 
 .button input {
     width: 20vh;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-.form input {
-    font-size: 1.5vh;
-    padding: 15px;
-    width: 60vw;
-    margin: 7px;
-    border: 2px solid black;
-    border-radius: 20px;
-    
+.button p {
+    padding-top: 10px;
+}
+
 }
 
 
@@ -312,4 +312,5 @@ aside strong {
 
 
 
-}
+
+
